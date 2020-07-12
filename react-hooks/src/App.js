@@ -32,12 +32,12 @@ const App= () => {
   return (
 
        <div style={{background: "grey"}}>
-          <h2 style={{textAlignVertical: "center",textAlign: "center",color:'black'}} >NEWS FILTER</h2>
+          <h2 style={{textAlignVertical: "center",textAlign: "center",color:'white'}} >NEWS FILTER</h2>
           <form onSubmit={handleSubmit}>
             <input style={{backgroundColor:'#4d4dff'}} type="text" value={searchQuery} onChange={handleChange} />
              <button style={{width:170,backgroundColor:'#4d4dff',marginTop:20}}>Search</button>
           </form>
-         <h4 style={{textAlignVertical: "center",textAlign: "center",color:"blue"}}> {news.map((n,i) => (<p key={i}>{n.title}</p>))} </h4>
+         <h4 style={{textAlignVertical: "center",textAlign: "center",color:"white"}}> {news.map((n,i) => (<p key={i}>{n.title}</p>))} </h4>
 
        </div>
     );
