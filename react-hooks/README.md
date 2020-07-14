@@ -12,6 +12,5 @@ Cd into the folder where you cloned the repo.
 
 Type `npm start`
 
-If it does not fetch the news yet,install a CORS extension in your web browser.
 
-The page will be show at port 3000.
+The page will  show at port 3000.
