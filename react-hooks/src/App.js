@@ -5,7 +5,7 @@ import React, {Component,useState,useEffect} from 'react';
 const App= () => {
   const[news,setNews]=useState([]);
   const[searchQuery,setSearchQuery]=useState([]);
-  const[url,setUrl]=useState("http://hn.algolia.com/api/v1/search?query=corona");
+  const[url,setUrl]=useState("https://hn.algolia.com/api/v1/search?query=corona");
 
   //fetch the news using fetch function which comes default with the browser
   useEffect(()=>
