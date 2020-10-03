@@ -1,12 +1,12 @@
 
 body {
-  /*background-color: black;*/
+  background-color: black;
   background:url("https://wallpapercave.com/wp/R4z5kls.jpg")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 40px;
+  margin-top: 20px;
   font-family: Arial;
   text-align: center;
 }
